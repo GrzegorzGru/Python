@@ -29,6 +29,9 @@ while True:
             time_seconds = str(int(time_seconds))
 
         print(f'Day: {days} \nTime: {time_hours}:{time_minutes}:{time_seconds}')
+        #Alternarive without if:
+        #print(f'Day: {days:.0f} \nTime: {time_hours:02.0f}:{time_minutes:02.0f}:{time_seconds:02.0f}')
+        
         break
     except:
         print('This is not a number!')
